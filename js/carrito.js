@@ -118,7 +118,7 @@ const dibujarFooter = () => {
                 timer: 2000
               })
             sessionStorage.setItem("carrito", JSON.stringify([]));
-            setTimeout(() => {location.href ="index.html"},200);
+            setTimeout(() => {location.href ="index.html"},2000);
         })
     }else{
         footCarrito.innerHTML = "<h3>No hay producto en carrito</h3>"
