@@ -53,10 +53,10 @@ buscar.addEventListener("keyup", (e) => {
     productosDisponibles = productosEncontrados
 
   if(e.target.value !== ""){
-    generarCardsProductos(productosEncontrados)
+    generarProductos(productosEncontrados)
   }else{
     productosDisponibles = JSON.parse(localStorage.getItem("productos"))
-    generarCardsProductos(productosDisponibles)
+    generarProductos(productosDisponibles)
   }
   
 })
